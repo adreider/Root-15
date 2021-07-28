@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 8px;
+}
+
+article span {
+    background-color: black;
+    color: white;
+}
+
+article, span {
+    padding: 8px;
+    margin: 1px;
+    border-radius: 4px;
+}
+
+.green {
+    background: hsl(110, 100%, 73%);
+}
+
+.purple {
+    background:hsl(290, 100%, 84%) ;
+}
+
+article {
+    display: flex;
+}
+
+article:nth-child(1) {
+    order: 1;
+}
